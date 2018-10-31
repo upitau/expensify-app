@@ -1,0 +1,1 @@
+export default (expenses) => expenses.reduce((acc, e) => acc + e.amount, 0);
