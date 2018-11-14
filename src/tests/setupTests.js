@@ -6,4 +6,4 @@ Enzyme.configure({
   adapter: new Adapter()
 });
 
-DotEnv.config({ path: __dirname + '/../.env.test'});
+DotEnv.config({ path: '.env.test'});
