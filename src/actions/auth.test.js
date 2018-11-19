@@ -2,7 +2,7 @@ import { login, logout } from './auth';
 
 test('should create login action', () => {
   const uid = 'abc';
-  const action = login();
+  const action = login(uid);
   expect(action).toEqual({
     type: 'LOGIN',
     uid
